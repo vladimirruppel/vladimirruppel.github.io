@@ -10,7 +10,7 @@
 	<title>
 		Текстовая страница
 	</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<meta name="description" content="WOC some games - магазин игр">
 
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,6 +19,294 @@
 	<meta property="og:image" content="images/dist/preview.jpg">
 
 	<link rel="stylesheet" href="css/main.min.css">
+
+	<style type="text/css">
+		.header {
+			position: relative;
+			z-index: 99;
+		}
+
+		.header__top-panel {
+			background: #000000;
+			height: 44px;
+			display: flex;
+			align-items: center;
+		}
+
+		.header__top-panel-wrap {
+			padding-left: 145px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 100%;
+		}
+
+		.header__phone-wrap {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.header__phone-icon {
+			color: #fafafa;
+			margin-right: 19px;
+			padding-top: 7px;
+		}
+
+		.header__phone {
+			font-size: 17px;
+			padding-top: 5px;
+			letter-spacing: 1.36px;
+			color: #fafafa;
+		}
+
+		.header__socials-list {
+			list-style-type: none;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			overflow-x: auto;
+		}
+
+		.header__socials-list li {
+			margin: 0 8px;
+		}
+
+		.header__socials-list li a {
+			display: inline-block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.header__account-data {
+			display: flex;
+			align-items: center;
+			text-transform: uppercase;
+			color: #fafafa;
+			font-size: 13px;
+		}
+
+		.header__search-wrap {
+			height: 44px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 3px;
+		}
+
+		.header__account {
+			margin-left: 10px;
+			border-left: 1px solid #3D3D3D;
+			border-right: 1px solid #3D3D3D;
+			height: 44px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
+
+		.header__account a {
+			text-decoration: none;
+			color: #fff;
+			padding: 3px 14px 0 14px;
+		}
+
+		.header__cart-data {
+			padding-top: 3px;
+			margin-left: 10px;
+		}
+
+		.header__cart-data .dash {
+			margin: 0 7px;
+		}
+
+		.header__cart-data a {
+			text-decoration: none;
+			color: #fafafa;
+			margin-right: 7px;
+		}
+
+		.header__cart-data span {
+			color: #969696;
+		}
+
+		.header__favorites {
+			margin-left: 28px;
+			padding-top: 7px;
+		}
+
+		.header__bottom-panel {
+			height: 130px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.header__bottom-panel-wrap {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.header__nav ul {
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.header__nav li.page-item {
+			margin: 0 20px;
+			position: relative;
+			z-index: 80;
+			display: inline-block;
+		}
+
+		.header__nav li.page-item.no-pc {
+			display: none;
+		}
+
+		.header__nav li.page-item.min-500 {
+			display: none;
+		}
+
+		.header__nav li.page-item:hover .page-item__dropdown-links {
+			display: block;
+		}
+
+		.header__nav li.page-item .page-item__dropdown {
+			position: absolute;
+			left: 0;
+			top: 20px;
+		}
+
+		.header__nav li.page-item .page-item__dropdown-links {
+			display: none;
+			margin-top: 15px;
+			box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);
+			padding-bottom: 60px;
+			padding: 15px 23px;
+			z-index: 100;
+			background: #fff;
+		}
+
+		.header__nav li.page-item .page-item__dropdown-links a {
+			margin: 10px 0;
+			white-space: nowrap;
+			display: block;
+		}
+
+		.header__nav li.page-item.active a {
+			color: #000;
+		}
+
+		.header__nav li.page-item:last-child {
+			margin-right: 0;
+		}
+
+		.header__nav li.page-item a {
+			display: inline-block;
+			width: 100%;
+			transition: all .05s ease 0s;
+			height: 100%;
+			font-size: 16px;
+			color: #000;
+			text-transform: uppercase;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.header__nav li.page-item a:hover {
+			color: #929b9e;
+			text-decoration: none;
+		}
+
+		.header__burger {
+			display: none;
+		}
+
+		.games-slider {
+			position: relative;
+		}
+
+		.games-slider .slick-slide>div {
+			height: 100%;
+		}
+
+		.games-slider .slick-track {
+			display: flex;
+		}
+
+		.games-slider .slick-arrow {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			z-index: 2;
+			margin: auto 0;
+			width: 50px;
+			height: 50px;
+			cursor: pointer;
+		}
+
+		.games-slider .slick-next {
+			right: 5%;
+		}
+
+		.games-slider .slick-prev {
+			left: 5%;
+		}
+
+		.games-slider .slick-dots {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 13%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			list-style-type: none;
+		}
+
+		.games-slider .slick-dots li {
+			margin: 0 7.5px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.games-slider .slick-dots li.slick-active button {
+			width: 18px;
+			height: 18px;
+			background: #2c5d9f;
+		}
+
+		.games-slider .slick-dots li button {
+			transition: all .3s ease 0s;
+			border: none;
+			width: 8px;
+			height: 12px;
+			font-size: 0;
+			border-radius: 50%;
+			background: #fff;
+		}
+
+		.games-slider__item {
+			height: 100%;
+		}
+
+		.games-slider__item a iframe {
+			width: 100%;
+			height: 100%;
+		}
+
+		.games-slider__item img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	</style>
 
 </head>
 
@@ -135,12 +423,12 @@
 						class="games-slider__preview-image">
 				</a>
 			</div>
-			<div class="games-slider__item">
+			<!-- <div class="games-slider__item">
 				<a href="game-card.html" target="_blank">
 					<iframe src="https://www.youtube.com/embed/yCOY82UdFrw" frameborder="0" allowfullscreen
 						class="video"></iframe>
 				</a>
-			</div>
+			</div> -->
 			<div class="games-slider__item">
 				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
@@ -318,26 +606,26 @@
 	</div>
 </section>
 
-<div class="dicount" style="display: none;">
-	<div class="discount__wrap">
+<div class="dicount-popup" style="display: none;">
+	<div class="discount-popup__wrap">
 		<div class="container">
-			<div class="discount__content">
-				<button class="discount__close-button"></button>
+			<div class="discount-popup__content">
+				<button class="discount-popup__close-button"></button>
 				<h1>Скидка 10%</h1>
 				<p>Подпишитесь и получите при первом онлайн-заказе</p>
-				<form action="" class="discount__form">
-					<div class="discount__name">
+				<form action="" class="discount-popup__form">
+					<div class="discount-popup__name">
 						<input type="text" placeholder="Имя" name="name">
 					</div>
-					<div class="discount__email">
+					<div class="discount-popup__email">
 						<input type="emai" placeholder="Email" name="email">
 					</div>
-					<div class="discount__agreement checkbox-button-wrap">
+					<div class="discount-popup__agreement checkbox-button-wrap">
 						<input name="agreement" type="checkbox">
 						<label for="agreement"><span>Согласие с <a href="agreement.html">Соглашением о персональных
 									данных</a></span></label>
 					</div>
-					<input class="discount__submit-btn btn" type="submit" value="Получить">
+					<input class="discount-popup__submit-btn btn" type="submit" value="Получить">
 				</form>
 			</div>
 		</div>
