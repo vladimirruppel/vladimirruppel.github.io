@@ -71,7 +71,7 @@
 							</a>
 						</div>
 						<div class="header__account">
-							<a>Мой аккаунт</a>
+							<a href="javascript:;" class="authorization-call">Мой аккаунт</a>
 						</div>
 						<div class="header__cart-data">
 							<a href="cart.html">Корзина</a> <span>0 покупок</span> <span class="dash">-</span> <span>₽
@@ -92,9 +92,10 @@
 					</a>
 					<nav class="header__nav">
 						<ul>
-							<li class="page-item no-pc"><a href="account.html">Мой аккаунт</a></li>
+							<li class="page-item no-pc authorization-call"><a href="javascript:;">Мой аккаунт</a></li>
 							<li class="page-item min-500"><a href="cart.html">Корзина</a> <span>0 покупок</span> -
-								<span>₽ 00.00</span></li>
+								<span>₽ 00.00</span>
+							</li>
 							<li class="page-item"><a href="news.html">Новинки</a></li>
 							<li class="page-item active"><a href="sale.html">Распродажа</a></li>
 							<li class="page-item"><a href="add-ons.html">Дополнения</a></li>
@@ -136,6 +137,12 @@
 			</div>
 			<div class="games-slider__item">
 				<a href="game-card.html" target="_blank">
+					<iframe src="https://www.youtube.com/embed/yCOY82UdFrw" frameborder="0" allowfullscreen
+						class="video"></iframe>
+				</a>
+			</div>
+			<div class="games-slider__item">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
@@ -149,16 +156,86 @@
 		</div>
 	</header>
 
+	<div class="authorization-window sign-up" style="display: none;">
+		<div class="authorization-window__content">
+			<button class="authorization-window__close-button"></button>
+			<h1 class="authorization-window__sign-up-header">Регистрация</h1>
+			<h1 class="authorization-window__sign-in-header">Вход</h1>
+			<h1 class="authorization-window__reset-password-header">Восстановление пароля</h1>
+			<fieldset>
+				<div class="authorization-window__name">
+					<input type="text" name="name" placeholder="Имя">
+				</div>
+				<div class="authorization-window__email">
+					<input type="email" name="email" placeholder="Email">
+				</div>
+				<div class="authorization-window__password">
+					<input type="password" name="password" placeholder="Пароль">
+				</div>
+				<div class="authorization-window__agreement checkbox-button-wrap">
+					<input name="agreement" type="checkbox">
+					<label for="agreement"><span>Согласие с <a href="agreement.html">Соглашением о персональных
+								данных</a></span></label>
+				</div>
+				<input type="submit" class="authorization-window__submit-sign-up btn" value="Зарегистрироваться">
+				<input type="submit" class="authorization-window__submit-sign-in btn" value="Войти">
+				<input type="submit" class="authorization-window__submit-passowrd-reset btn" value="Восстановить">
+			</fieldset>
+			<div class="authorization-window__already-signed-up">Уже зарегистрированы? <a
+					class="authorization-window__sign-in-btn" href="javascript:;">Войти</a></div>
+			<div class="authorization-window__not-signed-up">Не зарегистрированы? <a class="
+				authorization-window__sign-up-btn" href="javascript:;">Зарегистрироваться</a></div>
+			<div class="authorization-window__reset-password-question">Забыли пароль?
+				<a href="javascript:;" class="authorization-window__reset-password-btn">Восстановить</a>
+			</div>
+			<div class="authorization-window__socials-wrap">
+				<h2>Войти через соцсети</h2>
+				<ul class="authorization-window__socials-list">
+					<li>
+						<a href="https://vk.com" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-vk.svg" alt="VK">
+						</a>
+					</li>
+					<li>
+						<a href="https://facebook.com" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-fb.svg" alt="FB">
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-g+.svg" alt="G+">
+						</a>
+					</li>
+					<li>
+						<a href="https://ok.ru" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-ok.svg" alt="OK">
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-twitter.svg" alt="Twitter">
+						</a>
+					</li>
+					<li>
+						<a href="https://instagra.com" target="_blank">
+							<img width="35" src="images/dist/contacts-icon-ig.svg" alt="IG">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 <section class='main-news'>
 	<div class='container'>
 		<div class='main-news__wrap'>
 			<div class="breadcrumbs">
-	<span><a href="main.html">Образец хлебных крошек</a></span>
-	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
-	<span><a href="main.html">Образец хлебных крошек</a></span>
-	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
-	<span><a href="main.html">Образец хлебных крошек</a></span>
-</div>
+				<span><a href="main.html">Образец хлебных крошек</a></span>
+				<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
+				<span><a href="main.html">Образец хлебных крошек</a></span>
+				<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
+				<span><a href="main.html">Образец хлебных крошек</a></span>
+			</div>
 			<div class="main-news__grid filter-grid">
 				<div class="main-news__filter filter">
 					<div class="main-news__header-wrap header-wrap">
@@ -501,13 +578,39 @@
 							<a href="/" class="page-numbers next">
 								<img src="images/dist/arrow9.svg" alt="">
 							</a>
-							<a href="news.html" class="page-numbers news-link">Все новости</a>
+							<a href="news.html" class="page-numbers news-link">Все новинки</a>
 						</div>
 					</nav>
 				</div>
 			</div>
 		</div>
 </section>
+
+<div class="dicount" style="display: none;">
+	<div class="discount__wrap">
+		<div class="container">
+			<div class="discount__content">
+				<button class="discount__close-button"></button>
+				<h1>Скидка 10%</h1>
+				<p>Подпишитесь и получите при первом онлайн-заказе</p>
+				<form action="" class="discount__form">
+					<div class="discount__name">
+						<input type="text" placeholder="Имя" name="name">
+					</div>
+					<div class="discount__email">
+						<input type="emai" placeholder="Email" name="email">
+					</div>
+					<div class="discount__agreement checkbox-button-wrap">
+						<input name="agreement" type="checkbox">
+						<label for="agreement"><span>Согласие с <a href="agreement.html">Соглашением о персональных
+									данных</a></span></label>
+					</div>
+					<input class="discount__submit-btn btn" type="submit" value="Получить">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
 
 <footer class="footer">
 	<div class="container">
