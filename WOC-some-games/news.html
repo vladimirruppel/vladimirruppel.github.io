@@ -8,7 +8,7 @@
 	<!-- <base href="/"> -->
 
 	<title>
-		OptimizedHTML 5
+		Новинки
 	</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
@@ -87,7 +87,7 @@
 		<div class="header__bottom-panel">
 			<div class="container">
 				<div class="header__bottom-panel-wrap">
-					<a href="main.html" class="header__logo logo">
+					<a href="/" class="header__logo logo">
 						<img src="images/dist/site-logo.svg" alt="WOC SOME GAMES">
 					</a>
 					<nav class="header__nav">
@@ -96,15 +96,15 @@
 							<li class="page-item min-500"><a href="cart.html">Корзина</a> <span>0 покупок</span> -
 								<span>₽ 00.00</span></li>
 							<li class="page-item"><a href="news.html">Новинки</a></li>
-							<li class="page-item active"><a href="news.html">Распродажа</a></li>
-							<li class="page-item"><a href="news.html">Дополнения</a></li>
-							<li class="page-item"><a href="news.html">Предзаказ</a></li>
-							<li class="page-item"><a href="news.html">О нас</a></li>
+							<li class="page-item active"><a href="sale.html">Распродажа</a></li>
+							<li class="page-item"><a href="add-ons.html">Дополнения</a></li>
+							<li class="page-item"><a href="preorder.html">Предзаказ</a></li>
+							<li class="page-item"><a href="about-us.html">О нас</a></li>
 							<li class="page-item">
 								<a href="news.html">Где купить</a>
 								<div class="page-item__dropdown">
 									<div class="page-item__dropdown-links">
-										<a href="presale.html">Предзаказ</a>
+										<a href="preorder.html">Предзаказ</a>
 										<a href="where-to-buy.html">Где купить</a>
 										<a href="blog.html">Блог</a>
 										<a href="about-us.html">О нас</a>
@@ -112,7 +112,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="page-item"><a href="news.html">Контакты</a></li>
+							<li class="page-item"><a href="contacts.html">Контакты</a></li>
 						</ul>
 					</nav>
 					<div class="header__burger">
@@ -123,25 +123,25 @@
 		</div>
 		<div class="header__games-slider games-slider">
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
@@ -149,12 +149,19 @@
 		</div>
 	</header>
 
-<main class='main'>
+<section class='main-news'>
 	<div class='container'>
-		<div class='main__wrap'>
-			<div class="main__grid filter-grid">
-				<div class="main__filter filter">
-					<div class="main__header-wrap header-wrap">
+		<div class='main-news__wrap'>
+			<div class="breadcrumbs">
+	<span><a href="main.html">Образец хлебных крошек</a></span>
+	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
+	<span><a href="main.html">Образец хлебных крошек</a></span>
+	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
+	<span><a href="main.html">Образец хлебных крошек</a></span>
+</div>
+			<div class="main-news__grid filter-grid">
+				<div class="main-news__filter filter">
+					<div class="main-news__header-wrap header-wrap">
 						<div class="header-wrap__top-panel">
 							<h1>Фильтры</h1>
 						</div>
@@ -330,127 +337,163 @@
 						</form>
 					</div>
 				</div>
-				<div class="main__news">
-					<div class="main__header-wrap header-wrap">
+				<div class="main-news__wrap">
+					<div class="main-news__header-wrap header-wrap">
 						<div class="header-wrap__top-panel">
-							<h1>Новости</h1>
+							<h1>Новинки</h1>
 						</div>
 						<div class="header-wrap__bottom-panel">
 							<span class="header-wrap__left-line"></span>
 							<span class="header-wrap__right-line"></span>
 						</div>
 					</div>
-					<div class="main__news-grid two-columns-grid">
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+					<div class="main-news__news-grid two-columns-grid">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-2.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-2.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="main__news-item item-news">
-							<a href="news.html">
-								<div class="item-news__thumbnail">
-									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+						<div class="product-card">
+							<a href="game-card.html">
+								<div class="product-card__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
 								</div>
-								<div class="item-news__text">
-									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
-									<div class="item-news__date">
-										<span>
-											<img src="images/dist/clock-icon.svg" alt="date">
-										</span>
-										<span>
-											12.12.2020
-										</span>
+								<div class="product-card__text">
+									<div class="product-card__left-part">
+										<h3 class="product-card__name">Длинное название игры</h3>
+										<div class="product-card__platforms">PC, PSP</div>
+										<div class="product-card__price-wrap">
+											<div class="product-card__new-price">44.00 р.</div>
+										</div>
+									</div>
+									<div class="product-card__right-part">
+										<div class="product-card__new-sign">
+											New
+										</div>
+										<button class="product-card__favorite-btn">
+											<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+										</button>
 									</div>
 								</div>
 							</a>
 						</div>
 					</div>
-					<nav class="main__news-pagination grid-pagination pagination navigation" role="navigation">
+					<nav class="main-news__news-pagination grid-pagination pagination navigation" role="navigation">
 						<div class="nav-links">
 							<a href="/" class="page-numbers prev inactive">
 								<img src="images/dist/arrow9.svg" alt="">
@@ -463,10 +506,8 @@
 					</nav>
 				</div>
 			</div>
-
 		</div>
-	</div>
-</main>
+</section>
 
 <footer class="footer">
 	<div class="container">
@@ -478,7 +519,7 @@
 					<a href="news.html" class="footer__link">Новинки</a>
 					<a href="sale.html" class="footer__link">Распродажа</a>
 					<a href="add-ons.html" class="footer__link">Дополнения</a>
-					<a href="presale.html" class="footer__link">Предзаказ</a>
+					<a href="preorder.html" class="footer__link">Предзаказ</a>
 					<a href="where-to-buy.html" class="footer__link">Где купить</a>
 					<a href="blog.html" class="footer__link">Блог</a>
 					<a href="for-distributors.html" class="footer__link">Оптовикам</a>
@@ -492,7 +533,7 @@
 					<a href="payment-and-delivery-terms.html" class="footer__link">Условия оплаты и доставки</a>
 					<a href="personal-data-agreement.html" class="footer__link">Соглашение о персональных данных</a>
 				</div>
-				<div class="footer__form callback-form">
+				<form class="footer__form callback-form">
 					<div class="callback-form__name">
 						<input type="text" name="name" placeholder="Имя">
 					</div>
@@ -510,7 +551,7 @@
 						<label for="agreement">Согласие с Соглашением персональных данных</label>
 					</div>
 					<input type="submit" class="callback-form__submit-button" value="Отправить">
-				</div>
+				</form>
 			</div>
 			<div class="footer__bottom-panel">
 				<div class="footer__copyright">

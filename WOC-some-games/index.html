@@ -8,7 +8,7 @@
 	<!-- <base href="/"> -->
 
 	<title>
-		OptimizedHTML 5
+		Главная
 	</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
@@ -87,7 +87,7 @@
 		<div class="header__bottom-panel">
 			<div class="container">
 				<div class="header__bottom-panel-wrap">
-					<a href="main.html" class="header__logo logo">
+					<a href="/" class="header__logo logo">
 						<img src="images/dist/site-logo.svg" alt="WOC SOME GAMES">
 					</a>
 					<nav class="header__nav">
@@ -96,15 +96,15 @@
 							<li class="page-item min-500"><a href="cart.html">Корзина</a> <span>0 покупок</span> -
 								<span>₽ 00.00</span></li>
 							<li class="page-item"><a href="news.html">Новинки</a></li>
-							<li class="page-item active"><a href="news.html">Распродажа</a></li>
-							<li class="page-item"><a href="news.html">Дополнения</a></li>
-							<li class="page-item"><a href="news.html">Предзаказ</a></li>
-							<li class="page-item"><a href="news.html">О нас</a></li>
+							<li class="page-item active"><a href="sale.html">Распродажа</a></li>
+							<li class="page-item"><a href="add-ons.html">Дополнения</a></li>
+							<li class="page-item"><a href="preorder.html">Предзаказ</a></li>
+							<li class="page-item"><a href="about-us.html">О нас</a></li>
 							<li class="page-item">
 								<a href="news.html">Где купить</a>
 								<div class="page-item__dropdown">
 									<div class="page-item__dropdown-links">
-										<a href="presale.html">Предзаказ</a>
+										<a href="preorder.html">Предзаказ</a>
 										<a href="where-to-buy.html">Где купить</a>
 										<a href="blog.html">Блог</a>
 										<a href="about-us.html">О нас</a>
@@ -112,7 +112,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="page-item"><a href="news.html">Контакты</a></li>
+							<li class="page-item"><a href="contacts.html">Контакты</a></li>
 						</ul>
 					</nav>
 					<div class="header__burger">
@@ -123,25 +123,25 @@
 		</div>
 		<div class="header__games-slider games-slider">
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
 			</div>
 			<div class="games-slider__item">
-				<a href="game.html" target="_blank">
+				<a href="game-card.html" target="_blank">
 					<img src="images/dist/games-slider-preview-1.jpg" alt="PLAYSTATION 3 GAMES"
 						class="games-slider__preview-image">
 				</a>
@@ -149,13 +149,324 @@
 		</div>
 	</header>
 
-	<div style="max-width: 700px; margin: auto">
+<main class='main'>
+	<div class='container'>
+		<div class='main__wrap'>
+			<div class="main__grid filter-grid">
+				<div class="main__filter filter">
+					<div class="main__header-wrap header-wrap">
+						<div class="header-wrap__top-panel">
+							<h1>Фильтры</h1>
+						</div>
+						<div class="header-wrap__bottom-panel">
+							<span class="header-wrap__left-line"></span>
+							<span class="header-wrap__right-line"></span>
+						</div>
+					</div>
+					<div class="filter__accordion-wrap">
+						<form action="">
+							<div class="filter__accordion-item item-accordion">
+								<div class="item-accordion__top-panel">
+									<h2 class="item-accordion__header">Категория игры</h2>
+									<div class="item-accordion__arrow">
+										<img src="images/dist/arrow5.svg" alt=">">
+									</div>
+								</div>
+								<div class="item-accordion__content">
+									<div class="checkbox-button-wrap">
+										<input name="logical" type="checkbox">
+										<label for="logical">логическая</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="strategy" type="checkbox">
+										<label for="strategy">стратегическая</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="role-play" type="checkbox">
+										<label for="role-play">ролевая</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="party" type="checkbox">
+										<label for="party">вечериночная</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="for-kids" type="checkbox">
+										<label for="for-kids">детская</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="for-family" type="checkbox">
+										<label for="for-family">семейная</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="card" type="checkbox">
+										<label for="card">карточная</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="adventure" type="checkbox">
+										<label for="adventure">приключенческая</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="discount" type="checkbox">
+										<label for="discount">со скидкой</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="new" type="checkbox">
+										<label for="new">новинка</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="gift" type="checkbox">
+										<label for="gift">подарочная</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter__accordion-item item-accordion">
+								<div class="item-accordion__top-panel">
+									<h2 class="item-accordion__header">Возраст</h2>
+									<div class="item-accordion__arrow">
+										<img src="images/dist/arrow5.svg" alt=">">
+									</div>
+								</div>
+								<div class="item-accordion__content">
+									<div class="checkbox-button-wrap">
+										<input name="kids" type="checkbox">
+										<label for="kids">малыши 3-6 лет</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="schoolers" type="checkbox">
+										<label for="schoolers">школьники 7-13 лет</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="teenagers" type="checkbox">
+										<label for="teenagers">подростки 14-18</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="adults" type="checkbox">
+										<label for="adults">взрослые 18+</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter__accordion-item item-accordion">
+								<div class="item-accordion__top-panel">
+									<h2 class="item-accordion__header">Цена</h2>
+									<div class="item-accordion__arrow">
+										<img src="images/dist/arrow5.svg" alt=">">
+									</div>
+								</div>
+								<div class="item-accordion__content">
+									<div class="checkbox-button-wrap">
+										<input name="1000-1500" type="checkbox">
+										<label for="1000-1500">1000 - 1500</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="1500-2500" type="checkbox">
+										<label for="1500-2500">1500 - 2500</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="2500-4000" type="checkbox">
+										<label for="2500-4000">2500 - 4000</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="4000-higher" type="checkbox">
+										<label for="4000-higher">от 4000 и выше</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter__accordion-item item-accordion">
+								<div class="item-accordion__top-panel">
+									<h2 class="item-accordion__header">Число игроков</h2>
+									<div class="item-accordion__arrow">
+										<img src="images/dist/arrow5.svg" alt=">">
+									</div>
+								</div>
+								<div class="item-accordion__content">
+									<div class="checkbox-button-wrap">
+										<input name="any" type="checkbox">
+										<label for="any">любое</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="2-4" type="checkbox">
+										<label for="2-4">от 2 до 4</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="3-5" type="checkbox">
+										<label for="3-5">от 3 до 5</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="5-higher" type="checkbox">
+										<label for="5-higher">от 5 и выше</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter__accordion-item item-accordion">
+								<div class="item-accordion__top-panel">
+									<h2 class="item-accordion__header">Длительность игры</h2>
+									<div class="item-accordion__arrow">
+										<img src="images/dist/arrow5.svg" alt=">">
+									</div>
+								</div>
+								<div class="item-accordion__content">
+									<div class="checkbox-button-wrap">
+										<input name="until15minutes" type="checkbox">
+										<label for="until15minutes">до 15 минут</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="15-30minutes" type=" checkbox">
+										<label for="15-30minutes">15 - 30 минут</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="30-60minutes" type="checkbox">
+										<label for="30-60minutes">30 - 60 минут</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="60-120minutes" type="checkbox">
+										<label for="60-120minutes">60 - 120 минут</label>
+									</div>
+									<div class="checkbox-button-wrap">
+										<input name="since2hours" type="checkbox">
+										<label for="since2hours">от 2 часов</label>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="main__news">
+					<div class="main__header-wrap header-wrap">
+						<div class="header-wrap__top-panel">
+							<h1>Новости</h1>
+						</div>
+						<div class="header-wrap__bottom-panel">
+							<span class="header-wrap__left-line"></span>
+							<span class="header-wrap__right-line"></span>
+						</div>
+					</div>
+					<div class="main__news-grid two-columns-grid">
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-1.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="main__news-item item-news">
+							<a href="news.html">
+								<div class="item-news__thumbnail">
+									<img src="images/dist/product-card-thumbnail-2.jpg" alt="News thumbnail">
+								</div>
+								<div class="item-news__text">
+									<h2 class="item-news__header">Название длинной статьи об играх и не только</h2>
+									<div class="item-news__date">
+										<span>
+											<img src="images/dist/clock-icon.svg" alt="date">
+										</span>
+										<span>
+											12.12.2020
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<nav class="main__news-pagination grid-pagination pagination navigation" role="navigation">
+						<div class="nav-links">
+							<a href="/" class="page-numbers prev inactive">
+								<img src="images/dist/arrow9.svg" alt="">
+							</a>
+							<a href="/" class="page-numbers next">
+								<img src="images/dist/arrow9.svg" alt="">
+							</a>
+							<a href="news.html" class="page-numbers news-link">Все новости</a>
+						</div>
+					</nav>
+				</div>
+			</div>
 
-		<img src="images/dist/preview.jpg" alt="Start HTML5 Template" style="width: 100%"><br><br>
-		<h2>Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
-	
+		</div>
 	</div>
+</main>
 
 <footer class="footer">
 	<div class="container">
@@ -167,7 +478,7 @@
 					<a href="news.html" class="footer__link">Новинки</a>
 					<a href="sale.html" class="footer__link">Распродажа</a>
 					<a href="add-ons.html" class="footer__link">Дополнения</a>
-					<a href="presale.html" class="footer__link">Предзаказ</a>
+					<a href="preorder.html" class="footer__link">Предзаказ</a>
 					<a href="where-to-buy.html" class="footer__link">Где купить</a>
 					<a href="blog.html" class="footer__link">Блог</a>
 					<a href="for-distributors.html" class="footer__link">Оптовикам</a>
@@ -181,7 +492,7 @@
 					<a href="payment-and-delivery-terms.html" class="footer__link">Условия оплаты и доставки</a>
 					<a href="personal-data-agreement.html" class="footer__link">Соглашение о персональных данных</a>
 				</div>
-				<div class="footer__form callback-form">
+				<form class="footer__form callback-form">
 					<div class="callback-form__name">
 						<input type="text" name="name" placeholder="Имя">
 					</div>
@@ -199,7 +510,7 @@
 						<label for="agreement">Согласие с Соглашением персональных данных</label>
 					</div>
 					<input type="submit" class="callback-form__submit-button" value="Отправить">
-				</div>
+				</form>
 			</div>
 			<div class="footer__bottom-panel">
 				<div class="footer__copyright">

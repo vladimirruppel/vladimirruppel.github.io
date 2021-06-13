@@ -8,7 +8,7 @@
 	<!-- <base href="/"> -->
 
 	<title>
-		Блог
+		OptimizedHTML 5
 	</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
@@ -149,9 +149,9 @@
 		</div>
 	</header>
 
-<section class='blog'>
+<section class='preorder'>
 	<div class='container'>
-		<div class='blog__wrap'>
+		<div class='preorder__wrap'>
 			<div class="breadcrumbs">
 	<span><a href="main.html">Образец хлебных крошек</a></span>
 	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
@@ -159,75 +159,159 @@
 	<span><img src="images/dist/arrow5.svg" width="7" alt=">"></span>
 	<span><a href="main.html">Образец хлебных крошек</a></span>
 </div>
-			<div class="blog__header-wrap header-wrap">
+			<div class="preorder__header-wrap header-wrap">
 				<div class="header-wrap__top-panel">
-					<h1>Блог</h1>
+					<h1>Предзаказ</h1>
 				</div>
 				<div class="header-wrap__bottom-panel">
 					<span class="header-wrap__left-line"></span>
 					<span class="header-wrap__right-line"></span>
 				</div>
 			</div>
-			<div class="blog__posts-wrap">
-				<div class="blog__post-item post-item">
-					<h1 class="post-item__header">Заголовок</h1>
-					<div class="post-item__date">09 МАРТА 2021 г.</div>
-					<div class="post-item__content">
-						<div class="post-item__text">
-							<p>Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки
-								и реализации системы обучения кадров, соответствует насущным потребностям. Равным
-								образом реализация намеченных плановых заданий представляет собой интересный эксперимент
-								проверки позиций, занимаемых участниками в отношении поставленных задач.</p>
-							<p>Разнообразный и богатый опыт рамки и место обучения кадров позволяет оценить значение
-								соответствующий условий активизации. Таким образом постоянный количественный рост и
-								сфера нашей активности влечет за собой процесс внедрения и модернизации форм развития.
-							</p>
-							<p>Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки
-								и реализации системы обучения кадров, соответствует насущным потребностям. Равным
-								образом реализация намеченных плановых заданий представляет собой интересный эксперимент
-								проверки позиций, занимаемых участниками в отношении поставленных задач.</p>
-							<a href="post.html" class="post-item__link">Читать далее</a>
-						</div>
-						<div class="post-item__thumbnail">
-							<img src="images/dist/post-thumbnail-1.jpg" alt="Post thumbnail">
-						</div>
+			<div class="preorder__form-wrap">
+				<form action="" class="preorder__form form-preorder">
+					<div class="form-preorder__name">
+						<input type="text" placeholder="Имя">
 					</div>
-				</div>
-				<div class="blog__post-item post-item">
-					<h1 class="post-item__header">Заголовок</h1>
-					<div class="post-item__date">09 МАРТА 2021 г.</div>
-					<div class="post-item__content">
-						<div class="post-item__text">
-							<p>Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки
-								и реализации системы обучения кадров, соответствует насущным потребностям. Равным
-								образом реализация намеченных плановых заданий представляет собой интересный эксперимент
-								проверки позиций, занимаемых участниками в отношении поставленных задач.</p>
-							<p>Разнообразный и богатый опыт рамки и место обучения кадров позволяет оценить значение
-								соответствующий условий активизации. Таким образом постоянный количественный рост и
-								сфера нашей активности влечет за собой процесс внедрения и модернизации форм развития.
-							</p>
-							<p>Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки
-								и реализации системы обучения кадров, соответствует насущным потребностям. Равным
-								образом реализация намеченных плановых заданий представляет собой интересный эксперимент
-								проверки позиций, занимаемых участниками в отношении поставленных задач.</p>
-							<a href="post.html" class="post-item__link">Читать далее</a>
-						</div>
-						<div class="post-item__thumbnail">
-							<img src="images/dist/post-thumbnail-2.jpg" alt="Post thumbnail">
-						</div>
+					<div class="form-preorder__email">
+						<input type="email" placeholder="email">
 					</div>
-				</div>
-				<nav class="blog__posts-pagination navigation pagination" role="navigation">
-					<div class="nav-links">
-						<a href="/" class="page-numbers">1</a>
-						<a href="/" class="page-numbers">2</a>
-						<a href="/" class="page-numbers">3</a>
-						<a href="/" class="page-numbers">4</a>
-						<a href="/" class="page-numbers">5</a>
-						<a href="/" class="page-numbers">6</a>
-						<a href="/" class="page-numbers active">7</a>
+					<div class="form-preorder__game-title">
+						<select>
+							<option selected disabled>НАЗВАНИЕ ИГРЫ</option>
+							<option value="1">Grand Theft Auto V</option>
+							<option value="2">Overwatch</option>
+							<option value="3">Geometry dash</option>
+						</select>
 					</div>
-				</nav>
+					<div class="form-preorder__agreement-checkbox checkbox-button-wrap">
+						<input required name="agreement" type="checkbox">
+						<label for="agreement"><span>Согласие с <a href="agreement.html"> Соглашением о персональных данных</a></span></label>
+					</div>
+					<input type="submit" class="form-preorder__submit-btn btn" value="Получить">
+				</form>
+			</div>
+			<div class="preorder__you-also-will-like you-can-also-like-slider">
+				<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
+<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-2.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
+<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
+<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
+<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-2.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
+<div class="product-card">
+	<div class="product-card__thumbnail">
+		<img src="images/dist/product-card-thumbnail-1.jpg" alt="Game thumbnail">
+	</div>
+	<div class="product-card__text">
+		<div class="product-card__left-part">
+			<h3 class="product-card__name">Длинное название игры</h3>
+			<div class="product-card__platforms">PC, PSP</div>
+			<div class="product-card__price-wrap">
+				<div class="product-card__old-price">44.00 р.</div>
+				<div class="product-card__new-price">44.00 р.</div>
+			</div>
+		</div>
+		<div class="product-card__right-part">
+			<button class="product-card__favorite-btn">
+				<img src="images/dist/Heart-Gray.svg" alt="Favorite" width="18">
+			</button>
+		</div>
+	</div>
+</div>
 			</div>
 		</div>
 	</div>
