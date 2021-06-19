@@ -486,14 +486,14 @@
 		<div class='our-works__wrap'>
 			<h2 class="our-works__header">Наши <span class="orange-text">работы</span></h2>
 			<div class="our-works__tabs">
-				<div class="our-works__tab">Квартиры</div>
-				<span class="no-mobile">/</span>
-				<div class="our-works__tab">Коттеджи</div>
-				<span class="no-mobile">/</span>
-				<div class="our-works__tab">Коммерческие предложения</div>
+				<div class="our-works__tab" id="tab1">Квартиры <span class="no-mobile">/</span></div>
+				
+				<div class="our-works__tab" id="tab2">Коттеджи <span class="no-mobile">/</span></div>
+				
+				<div class="our-works__tab" id="tab3">Коммерческие предложения</div>
 			</div>
 			<div class="our-works__content">
-				<div class="our-works__tab-content">
+				<div class="our-works__tab-content init" id="content1">
 					<div>
 						<div class="our-works__item item-work">
 							<div class="item-work__images">
@@ -684,7 +684,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="our-works__tab-content">
+				<div class="our-works__tab-content" id="content2">
 					<div>
 						<div class="our-works__item item-work">
 							<div class="item-work__images">
@@ -814,7 +814,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="our-works__tab-content">
+				<div class="our-works__tab-content" id="content3">
 					<div>
 						<div class="our-works__item item-work">
 							<div class="item-work__images">
@@ -1238,7 +1238,7 @@
 	</div>
 </section>
 
-<div class="popup cost-calculation" style="display: none">
+<div class="popup cost-calculation">
 	<div class="popup__content">
 		<div class="popup__content-wrap">
 			<button class="popup__close-button">
@@ -1274,7 +1274,7 @@
 	</div>
 </div>
 
-<div class="popup callback" style="display: none">
+<div class="popup callback">
 	<div class="popup__content">
 		<div class="popup__content-wrap">
 			<button class="popup__close-button">
@@ -1310,7 +1310,7 @@
 	</div>
 </div>
 
-<div class="popup order" style="display: none">
+<div class="popup order">
 	<div class="popup__content">
 		<div class="popup__content-wrap">
 			<button class="popup__close-button">
