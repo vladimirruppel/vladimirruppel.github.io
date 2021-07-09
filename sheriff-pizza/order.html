@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>
+		Оформление заказа
+	</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=a5430be8-39f5-453b-a33c-9ee58780c966&lang=ru_RU"
+		type="text/javascript"></script>
+
+</head>
+
+<body class="white">
+
+	<header class="header cart">
+		<div class="header__content _container">
+			<div class="header__menu menu">
+				<div class="menu__mobile">
+					<a href="main.html" class="menu__back-link">Вернуться назад</a>
+					<div class="menu__logo logo">
+						<img src="images/dist/icons/logo.svg" alt="Logo" class="logo__image">
+					</div>
+					<div class="menu__flex">
+						<div class="menu__phone phone">
+							<a href="tel:+73022710505" class="phone__wrap-link">
+								<span class="phone__icon">
+									<img src="images/dist/icons/phone.svg" alt="Телефон">
+								</span>
+								<span class="phone__number">8 (3022) 71-05-05</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<nav class="menu__body">
+					<a href="main.html" class="menu__back-link">Вернуться назад</a>
+					<div class="menu__logo logo">
+						<img src="images/dist/icons/logo.svg" alt="Logo" class="logo__image">
+					</div>
+					<div class="menu__flex">
+						<div class="menu__phone phone">
+							<a href="tel:+73022710505" class="phone__wrap-link">
+								<span class="phone__icon">
+									<img src="images/dist/icons/phone.svg" alt="Телефон">
+								</span>
+								<span class="phone__number">8 (3022) 71-05-05</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="wrapper">
+		<main class="page order">
+			<div class="page__body">
+				<div class="order__content _container">
+					<h1 class="order__header">Оформление заказа</h1>
+					<div class="order__grid">
+						<div class="order__information">
+							<div class="form-item">
+								<div class="form-item__top-panel">
+									<div class="form-item__number">
+										<span class="not-checked">1</span>
+										<span class="checked">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</span>
+									</div>
+									<div class="form-item__title">Данные получателя заказа</div>
+								</div>
+								<div class="form-item__content">
+									<div class="form-item__grid two-columns">
+										<div class="input-wrap">
+											<label for="">Введите имя <span>*</span></label>
+											<input data-value="Александр" type="text" name="name" class="form-item__input input" required>
+										</div>
+										<div class="input-wrap">
+											<label for="">Введите телефон <span>*</span></label>
+											<input data-value="+7 (495) 459-69-66" type="tel" name="tel" class="form-item__input input" required>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="form-item__top-panel">
+									<div class="form-item__number">
+										<span class="not-checked">2</span>
+										<span class="checked">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</span>
+									</div>
+									<div class="form-item__title">Где и как вы хотите получить заказ?</div>
+								</div>
+								<div class="form-item__content">
+									<div class="form-item__radio-block">
+										<div class="radio-wrap">
+											<input type="radio" name="where" checked>
+											<label for="" class="active">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Доставка по адресу</div>
+														<p class="radio-wrap__description">В течении часа, бесплатно от 1000 ₽</p>
+													</div>
+												</div>
+											</label>
+										</div>
+										<div class="radio-wrap">
+											<input type="radio" name="where">
+											<label for="" class="label-pickup">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Самовывоз</div>
+														<p class="radio-wrap__description">Забрать из ресторана самостоятельно</p>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<div class="form-item__radio-content">
+										<div class="form-item__radio-item adress active">
+											<form action="#" class="adress__form">
+												<div class="input-wrap">
+													<label for="">Введите адрес доставки <span>*</span></label>
+													<input autocomplete="off" type="text" name="street" data-error="Ошибка" data-value="Улица" class="input" required>
+												</div>
+												<div class="form-item__grid four-columns">
+													<input autocomplete="off" type="text" name="house" data-error="Ошибка" data-value="Дом" class="input">
+													<input autocomplete="off" type="text" name="apartment" data-error="Ошибка" data-value="Квартира" class="input">
+													<input autocomplete="off" type="text" name="entrance" data-error="Ошибка" data-value="Подъезд" class="input">
+													<input autocomplete="off" type="text" name="floor" data-error="Ошибка" data-value="Этаж" class="input">
+												</div>
+												<label class="checkbox">
+													<input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<span class="checkbox__text"><span>Домофон работает</span></span>
+												</label>
+												<div class="textarea-wrap">
+													<label for="">Комментарий</label>
+													<textarea autocomplete="off" name="form[]" data-value="" data-error="Ошибка" class="input"></textarea>
+												</div>
+											</form>
+										</div>
+										<div class="form-item__radio-item pickup">
+											<div class="pickup__grid">
+												<div class="pickup__text">
+													<ul>
+														<li class="contact-data phone">
+															<div class="contact-data__title">Телефон:</div>
+															<div class="contact-data__description">
+																<div class="contact-data__icon">
+																	<img src="images/dist/icons/phone.svg" alt="Телефон">
+																</div>
+																<div class="contact-data__data">
+																	<a href="tel:+79022710505">8 (3022) 71-05-05</a>
+																</div>
+															</div>
+														</li>
+														<li class="contact-data">
+															<div class="contact-data__title">Адрес:</div>
+															<div class="contact-data__description">
+																<div class="contact-data__icon">
+																	<img src="images/dist/icons/geo.svg" alt="Адрес">
+																</div>
+																<div class="contact-data__data">
+																	г. Чита, ул.Объездное шоссе, 24а, стр 6
+																</div>
+															</div>
+														</li>
+														<li class="contact-data">
+															<div class="contact-data__title">Режим работы:</div>
+															<div class="contact-data__description">
+																<div class="contact-data__icon">
+																	<img src="images/dist/icons/clcok.svg" alt="Режим работы">
+																</div>
+																<div class="contact-data__data">
+																	Ежедневно с 10.00 до 20.30
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="pickup__map-wrap">
+													<div class="pickup__map" id="map"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="form-item__top-panel">
+									<div class="form-item__number">
+										<span class="not-checked">3</span>
+										<span class="checked">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</span>
+									</div>
+									<div class="form-item__title">Когда вы хотите получить заказ</div>
+								</div>
+								<div class="form-item__content">
+									<div class="form-item__radio-block">
+										<div class="radio-wrap">
+											<input type="radio" name="when">
+											<label for="" class="when">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Как можно скорее</div>
+														<p class="radio-wrap__description">Доставим в течении часа</p>
+													</div>
+												</div>
+											</label>
+										</div>
+										<div class="radio-wrap">
+											<input type="radio" name="when">
+											<label for="" class="when">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Выбрать время</div>
+														<p class="radio-wrap__description">Доставим в выбранное время</p>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<div class="form-item__radio-content">
+										<div class="form-item__radio-item active">
+											
+										</div>
+										<div class="form-item__radio-item time">
+											<div class="time__grid form-item__grid two-columns">
+												<div class="select-wrap input-wrap">
+													<label for="">Дата <span>*</span></label>
+													<select name="form[]" class="">
+														<option value="1" selected="selected">Сегодня</option>
+														<option value="2">Завтра</option>
+														<option value="3">Через неделю</option>
+													</select>
+												</div>
+												<div class="select-wrap input-wrap">
+													<label for="">Время <span>*</span></label>
+													<select name="form[]" class="">
+														<option value="1" selected="selected">07:30</option>
+														<option value="2">8:00</option>
+														<option value="3">9:00</option>
+														<option value="4">12:00</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="form-item__top-panel">
+									<div class="form-item__number">
+										<span class="not-checked">4</span>
+										<span class="checked">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</span>
+									</div>
+									<div class="form-item__title">Как вам будет удобнее оплатить заказ заказ?</div>
+								</div>
+								<div class="form-item__content">
+									<div class="form-item__radio-block">
+										<div class="radio-wrap">
+											<input type="radio" name="how">
+											<label for="">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Наличными курьеру</div>
+														<p class="radio-wrap__description">Наличными при доставке по адресу</p>
+													</div>
+												</div>
+											</label>
+										</div>
+										<div class="radio-wrap">
+											<input type="radio" name="how">
+											<label for="">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Картой курьеру</div>
+														<p class="radio-wrap__description">Картами Visa, MasterCard, Мир</p>
+													</div>
+												</div>
+											</label>
+										</div>
+										<div class="radio-wrap">
+											<input type="radio" name="how">
+											<label for="">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">Картой на сайте</div>
+														<p class="radio-wrap__description">Картами Visa, MasterCard, Мир</p>
+													</div>
+												</div>
+											</label>
+										</div>
+										<div class="radio-wrap">
+											<input type="radio" name="how">
+											<label for="">
+												<div class="radio-wrap__content">
+													<div class="radio-wrap__check">
+														<img src="images/dist/icons/checked-big.svg" alt="">
+													</div>
+													<div class="radio-wrap__description-wrap">
+														<div class="radio-wrap__title">При самовывозе</div>
+														<p class="radio-wrap__description">Оплата картой или наличными в магазине</p>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="order__side order-side">
+							<div class="order-side__top-panel">
+								<div class="order-side__title">Ваш заказ</div>
+								<div class="order-side__number">6</div>
+							</div>
+							<div class="order-side__middle-panel">
+								<div class="item-order-side">
+									<div class="item-order-side__left-part">
+										<div class="item-order-side__title">Шериф делюкс</div>
+										<div class="item-order-side__quantity-wrap">
+											<div class="quantity">
+	<div class="quantity__button quantity__button_minus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/minus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/minus.svg" class="active" alt="-">
+		</div>
+	</div>
+	<div class="quantity__input">
+		<input autocomplete="off" type="text" name="form[]" value="1">
+	</div>
+	<div class="quantity__button quantity__button_plus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/plus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/plus.svg" class="active" alt="+">
+		</div>
+	</div>
+</div>
+										</div>
+									</div>
+									<div class="item-order-side__right-part">
+										<div class="item-order-side__price rub">679 </div>
+									</div>
+								</div>
+								<div class="item-order-side">
+									<div class="item-order-side__left-part">
+										<div class="item-order-side__title">Шериф делюкс</div>
+										<div class="item-order-side__quantity-wrap">
+											<div class="quantity">
+	<div class="quantity__button quantity__button_minus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/minus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/minus.svg" class="active" alt="-">
+		</div>
+	</div>
+	<div class="quantity__input">
+		<input autocomplete="off" type="text" name="form[]" value="1">
+	</div>
+	<div class="quantity__button quantity__button_plus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/plus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/plus.svg" class="active" alt="+">
+		</div>
+	</div>
+</div>
+										</div>
+									</div>
+									<div class="item-order-side__right-part">
+										<div class="item-order-side__price rub">679 </div>
+									</div>
+								</div>
+								<div class="item-order-side">
+									<div class="item-order-side__left-part">
+										<div class="item-order-side__title">Шериф делюкс</div>
+										<div class="item-order-side__quantity-wrap">
+											<div class="quantity">
+	<div class="quantity__button quantity__button_minus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/minus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/minus.svg" class="active" alt="-">
+		</div>
+	</div>
+	<div class="quantity__input">
+		<input autocomplete="off" type="text" name="form[]" value="1">
+	</div>
+	<div class="quantity__button quantity__button_plus">
+		<div class="quantity__button-wrap">
+			<img src="images/dist/icons/plus-dark.svg" class="inactive" alt="-">
+			<img src="images/dist/icons/plus.svg" class="active" alt="+">
+		</div>
+	</div>
+</div>
+										</div>
+									</div>
+									<div class="item-order-side__right-part">
+										<div class="item-order-side__price rub">679 </div>
+									</div>
+								</div>
+							</div>
+							<div class="order-side__bottom-panel">
+								<div class="order-side__delivery-wrap">
+									<div>
+										<div class="order-side__delivery-icon">
+											<img src="images/dist/icons/delivery.svg" alt="Доставка">
+										</div>
+										<div class="order-side__delivery-title">Доставка</div>
+									</div>
+									<div>
+										<div class="oder-side__delivery-price free">
+											Бесплатно
+										</div>
+									</div>
+								</div>
+								<div class="order-side__sum-wrap">
+									<p class="order-side__sum-title">Сумма заказа:</p>
+									<div class="order-side__sum">1 540 Р</div>
+								</div>
+								<p class="order-side__delivery-info">До бесплатной доставки еще 427 Р</p>
+								<input type="submit" disabled="disabled" class="order-side__order-button btn _fw" value="Оформить заказ">
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer">
+	<div class="footer__content _container">
+		<div class="footer__left-part">
+			<div class="footer__logo logo">
+				<img src="images/dist/icons/logo.svg" alt="Логтоип">
+			</div>
+			<div class="footer__copyright">
+				<p>© 2021 «Шериф-пицца» Все права защищены</p>
+				<a href="/"><img src="images/dist/forest-web.svg" alt="Разработка сайта - Forestweb"></a>
+			</div>
+		</div>
+		<div class="footer__right-part">
+			<ul class="footer__socials-list">
+				<li class="social-item"><a href="/">
+						<img src="images/dist/icons/vk.svg" class="active" alt="VK">
+						<img src="images/dist/icons/vk-white.svg" alt="VK" class="inactive">
+					</a></li>
+				<li class="social-item"><a href="/">
+						<img src="images/dist/icons/f.svg" class="active" alt="Facebook">
+						<img src="images/dist/icons/f-white.svg" alt="Facebook" class="inactive">
+					</a></li>
+				<li class="social-item"><a href="/">
+						<img src="images/dist/icons/insta.svg" class="active" alt="Instagram">
+						<img src="images/dist/icons/insta-white.svg" alt="Instagram" class="inactive">
+					</a></li>
+				<li class="social-item"><a href="/">
+						<img src="images/dist/icons/f2.svg" alt="F" class="active">
+						<img src="images/dist/icons/f2-white.svg" alt="F" class="inactive">
+					</a></li>
+			</ul>
+			<div class="footer__phone phone">
+				<a href="tel:+73022710505" class="phone__wrap-link">
+					<span class="phone__icon">
+						<img src="images/dist/icons/phone.svg" alt="Телефон">
+					</span>
+					<span class="phone__number">8 (3022) 71-05-05</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
+			</div>
+		</main>
+	</div>
+
+	<div class="popup popup-product">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<div class="popup-product__grid">
+				<div class="popup-product__image-wrap">
+					<img src="images/dist/pizza/1.png" alt="">
+				</div>
+				<div class="popup-product__text">
+					<h1 class="popup-product__header no-ab">Четыре сезона</h1>
+					<p class="popup-product__description">Сливочный соус, бекон, куриное филе, томаты, чеснок, моцарелла.</p>
+					<form action="#" class="popup-product__form">
+						<div class="product-card__input-row">
+							<div class="radio-wrap">
+								<input type="radio" name="size" checked>
+								<label class="active">
+									<span class="diameter-image">
+										<img src="images/dist/icons/diameter.svg" class="white" alt="">
+										<img src="images/dist/icons/diameter-black.svg" class="black" alt="">
+										<img src="images/dist/icons/diameter-red.svg" class="red" alt="">
+									</span> 30 см
+								</label>
+							</div>
+							<div class="radio-wrap">
+								<input type="radio" name="size">
+								<label>
+									<span class="diameter-image">
+										<img src="images/dist/icons/diameter.svg" class="white" alt="">
+										<img src="images/dist/icons/diameter-black.svg" class="black" alt="">
+										<img src="images/dist/icons/diameter-red.svg" class="red" alt="">
+									</span> 30 см
+								</label>
+							</div>
+						</div>
+						<div class="product-card__input-row">
+							<div class="radio-wrap">
+								<input type="radio" name="dough" checked>
+								<label class="active">
+									стандартное
+								</label>
+							</div>
+							<div class="radio-wrap">
+								<input type="radio" name="dough">
+								<label>
+									тонкое
+								</label>
+							</div>
+						</div>
+						<div class="card__supplements">
+							<h4 class="card__supplements-header card__sm-header">Добавки:</h4>
+							<div class="card__supplements-grid card__checkbox-grid">
+								<div class="card__radio-wrap checkbox-wrap">
+									<input type="checkbox" name="supplement">
+									<label for="">
+										<div class="radio-wrap__check">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</div>
+										<div class="radio-wrap__description-wrap">
+											<div class="radio-wrap__title">соус</div>
+											<p class="radio-wrap__description">20 Р. - 1 шт.</p>
+										</div>
+									</label>
+								</div>
+								<div class="card__radio-wrap checkbox-wrap">
+									<input type="checkbox" name="supplement">
+									<label for="">
+										<div class="radio-wrap__check">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</div>
+										<div class="radio-wrap__description-wrap">
+											<div class="radio-wrap__title">дабл сыр</div>
+											<p class="radio-wrap__description">20 Р. - 1 шт.</p>
+										</div>
+									</label>
+								</div>
+								<div class="card__radio-wrap checkbox-wrap">
+									<input type="checkbox" name="supplement">
+									<label for="">
+										<div class="radio-wrap__check">
+											<img src="images/dist/icons/checked-big.svg" alt="">
+										</div>
+										<div class="radio-wrap__description-wrap">
+											<div class="radio-wrap__title">халапеньо</div>
+											<p class="radio-wrap__description">20 Р. - 1 шт.</p>
+										</div>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="popup-product__price-and-add">
+							<div class="popup-product__price">
+								<div class="popup-product__price-title">Цена:</div>
+								<div class="popup-product__price-number">759 Р</div>
+							</div>
+							<button class="popup-product__add-button btn" type="submit">Добавить в корзину</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<a href="/" class="popup-product__more-information-link">Смотреть полную информацию</a>
+		</div>
+	</div>
+</div>
