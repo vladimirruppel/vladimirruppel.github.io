@@ -1,5 +1,5 @@
 # vladimirruppel.github.io
-## Сайт автошколы:
+## Сайт автошколы
 https://vladimirruppel.github.io/drivingschool/index.html  
 https://vladimirruppel.github.io/drivingschool/about.html  
 https://vladimirruppel.github.io/drivingschool/404.html  
@@ -48,3 +48,6 @@ https://vladimirruppel.github.io/nachay/qr.html
 https://vladimirruppel.github.io/nachay/pos.html  
 https://vladimirruppel.github.io/nachay/support.html  
 https://vladimirruppel.github.io/nachay/sign-up.html  
+
+## Сайт "Стяжка пола"
+https://vladimirruppel.github.io/styazhka/index.html
