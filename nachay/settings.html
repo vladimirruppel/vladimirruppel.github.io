@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 5</title>
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="images/favicon.png">
+	
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="left">
+		<div class="left__wrap">
+			<div class="logo">
+				<img src="images/dist/site-logo.svg" alt="Logo company">
+			</div>
+			<nav class="main-nav">
+				<ul>
+					<li class="main-nav__item navitem">
+						<a href="statistic.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-1.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								Статистика
+							</div>
+						</a>
+					</li>
+					<li class="main-nav__item navitem">
+						<a href="management.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-2.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								Управление персоналом
+							</div>
+						</a>
+					</li>
+					<li class="main-nav__item navitem active">
+						<a href="settings.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-3.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								Настройки
+							</div>
+						</a>
+					</li>
+					<li class="main-nav__item navitem">
+						<a href="qr.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-4.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								QR коды
+							</div>
+						</a>
+					</li>
+					<li class="main-nav__item navitem">
+						<a href="pos.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-5.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								POS материалы
+							</div>
+						</a>
+					</li>
+					<li class="main-nav__item navitem">
+						<a href="support.html">
+							<div class="navitem__icon">
+								<img src="images/dist/navitem-icon-6.svg" alt="Иконка">
+							</div>
+							<div class="navitem__title">
+								Техническая поддерка
+							</div>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="right no-mw">
+		<div class="container">
+			<div class="right__content">
+				<div class="profile-wrap">
+	<div class="profile">
+		<a href="/">
+			<div class="profile__avatar">
+				<img src="images/dist/profile-avatar-image.jpg" alt="">
+			</div>
+			<div class="profile__text">
+				<div class="profile__name">Александра Константиновна</div>
+				<div class="profile__role">Владелец заведения</div>
+			</div>
+			<div class="profile__icon">
+				<img src="images/dist/profile-link-icon.svg" alt="Ссылка">
+			</div>
+		</a>
+	</div>
+</div>
+				<div class="settings-page">
+					<h1 class="settings-page__header">Настройки</h1>
+					<form action="" class="settings-form">
+						<div class="settings-page__grid">
+							<div class="settings-page__left-part">
+								<div class="input-wrap">
+									<label for="placeName">Название заведения *</label>
+									<input type="text" required name="placeName" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="placeType">Тип заведения *</label>
+									<input type="text" required name="placeType" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="placeSite">Сайт заведения</label>
+									<input type="text" name="placeSite" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="placeAddress">Адрес заведения</label>
+									<input type="text" name="placeAddress" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="placeTel">Телефон заведения</label>
+									<input type="tel" name="placeTel" placeholder="+ 7">
+								</div>
+								<div class="input-wrap">
+									<label for="placeEmail">E-mail заведения</label>
+									<input type="email" name="placeEmail" placeholder="Не заполнено">
+								</div>
+							</div>
+							<div class="settings-page__right-part">
+								<div class="settings-page__images-grid">
+									<div class="file-upload-wrap">
+										<div class="file-upload-wrap__title">Изображение аккаунта</div>
+										<div class="file-upload-wrap__current-image-wrap">
+											<img src="images/dist/profile-avatar-image-q.png" alt="Изображение аккаунта">
+										</div>
+										<label class="file-upload-input-wrap">
+											<input type="file" class="file-upload-wrap__file-input">
+											<div class="file-upload-input-image">
+												<img src="images/dist/file-upload-input-image.svg" alt="Загрузить">
+											</div>
+										</label>
+									</div>
+									<div class="file-upload-wrap">
+										<div class="file-upload-wrap__title">Логотип заведения</div>
+										<div class="file-upload-wrap__current-image-wrap">
+											<img src="images/dist/place-avatar-image.png" alt="Логотип заведения">
+										</div>
+										<label class="file-upload-input-wrap">
+											<input type="file" class="file-upload-wrap__file-input">
+											<div class="file-upload-input-image">
+												<img src="images/dist/file-upload-input-image.svg" alt="Загрузить">
+											</div>
+										</label>
+									</div>
+								</div>
+								<div class="input-wrap">
+									<label for="firstName">Имя *</label>
+									<input type="text" required name="firstName" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="lastName">Фамилия *</label>
+									<input type="text" required name="lastName" placeholder="Не заполнено">
+								</div>
+								<div class="input-wrap">
+									<label for="tel">Телефон *</label>
+									<input type="text" required name="tel" placeholder="+ 7">
+								</div>
+								<div class="input-wrap">
+									<label for="email">E-mail *</label>
+									<input type="text" required name="email" placeholder="Не заполнено">
+								</div>
+							</div>
+						</div>
+						<input type="submit" class="settings-form__submit-btn btn" value="Сохранить">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="popup popup-sign-in">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__logo logo">
+				<img src="images/dist/site-logo.svg" alt="Site logo">
+			</div>
+			<h2 class="popup__header">Вход</h2>
+			<form action="post" class="popup__form popup-sign-in__form">
+				<div class="input-wrap">
+					<label for="">Телефон или E-mail</label>
+					<input type="text" placeholder="+7">
+				</div>
+				<div class="input-wrap">
+					<div class="input-wrap__grid">
+						<label for="">Пароль</label>
+						<a href="/" class="popup-sign-in__link">Я забыл пароль</a>
+					</div>
+					<input type="password" placeholder="*****">
+				</div>
+				<input type="submit" class="popup-sign-in__submit-btn btn" value="Войти">
+			</form>
+			<a href="/" class="popup-sing-in__sign-up-link btn">Зарегистрироваться</a>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup-sign-up">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__logo logo">
+				<img src="images/dist/site-logo.svg" alt="Site logo">
+			</div>
+			<h2 class="popup__header">Регистрация</h2>
+			<form action="post" class="popup-sign-up__form popup__form">
+				<div class="input-wrap">
+					<label for="">Email</label>
+					<input type="email" placeholder="email@gmail.com">
+				</div>
+				<div class="input-wrap">
+					<label for="">Телефон</label>
+					<input type="tel" placeholder="+7">
+				</div>
+				<div class="input-wrap">
+					<label for="">Пароль</label>
+					<input type="password" placeholder="*****">
+				</div>
+				<div class="input-wrap">
+					<label for="">Повторите пароль</label>
+					<input type="password" placeholder="*****">
+				</div>
+				<input type="submit" class="popup-sign-up__submit-btn popup__submit-btn btn" value="Зарегистрироваться">
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
