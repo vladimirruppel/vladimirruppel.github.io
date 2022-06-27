@@ -39,3 +39,12 @@ https://vladimirruppel.github.io/perfume/news.html
 https://vladimirruppel.github.io/perfume/order.html  
 https://vladimirruppel.github.io/perfume/text.html  
 https://vladimirruppel.github.io/perfume/thanks.html  
+
+## Сайт для выплат чаевых "Начай"
+https://vladimirruppel.github.io/nachay/statistic.html
+https://vladimirruppel.github.io/nachay/management.html
+https://vladimirruppel.github.io/nachay/settings.html
+https://vladimirruppel.github.io/nachay/qr.html
+https://vladimirruppel.github.io/nachay/pos.html
+https://vladimirruppel.github.io/nachay/support.html
+https://vladimirruppel.github.io/nachay/sign-up.html
