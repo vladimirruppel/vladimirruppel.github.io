@@ -1,6 +1,6 @@
 # vladimirruppel.github.io
 ## Сайт автошколы:
-https://vladimirruppel.github.io/drivingschool/index.html  
+[https://vladimirruppel.github.io/drivingschool/index.html](https://vladimirruppel.github.io/drivingschool/index.html)  
 https://vladimirruppel.github.io/drivingschool/about.html  
 https://vladimirruppel.github.io/drivingschool/404.html  
 https://vladimirruppel.github.io/drivingschool/blog.html  
