@@ -50,4 +50,4 @@ https://vladimirruppel.github.io/nachay/support.html
 https://vladimirruppel.github.io/nachay/sign-up.html  
 
 ## Сайт "Стяжка пола"
-https://vladimirruppel.github.io/styazhka/index.html
+https://vladimirruppel.github.io/styazhka-pola/index.html
