@@ -15,3 +15,13 @@ https://vladimirruppel.github.io/drivingschool/sale.html
 https://vladimirruppel.github.io/drivingschool/sale-item.html  
 https://vladimirruppel.github.io/drivingschool/service.html  
 https://vladimirruppel.github.io/drivingschool/vacancies.html  
+____  
+## Сайт "Шериф Пицца"
+https://vladimirruppel.github.io/sheriff-pizza/main.html  
+https://vladimirruppel.github.io/sheriff-pizza/about.html  
+https://vladimirruppel.github.io/sheriff-pizza/card.html  
+https://vladimirruppel.github.io/sheriff-pizza/cart.html  
+https://vladimirruppel.github.io/sheriff-pizza/catalog.html  
+https://vladimirruppel.github.io/sheriff-pizza/contacts.html  
+https://vladimirruppel.github.io/sheriff-pizza/order.html  
+https://vladimirruppel.github.io/sheriff-pizza/sent.html  
