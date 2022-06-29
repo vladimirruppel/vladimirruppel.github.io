@@ -51,3 +51,9 @@ https://vladimirruppel.github.io/nachay/sign-up.html
 
 ## Сайт "Стяжка пола"
 https://vladimirruppel.github.io/styazhka-pola/index.html
+
+## Сайт "Александр Батманов"
+https://vladimirruppel.github.io/batmanov/index.html
+
+## Сайт "goosemark"
+https://vladimirruppel.github.io/goosemark/index.html
