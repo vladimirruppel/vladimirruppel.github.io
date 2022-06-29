@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Vetlife — выбор заботливых хозяев</title>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body white">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="/" class="header__logo">
+      <img src="img/logo.svg" alt="Логотип сайта &quot;Vetlife&quot;">
+    </a>
+    <div class="header__burger">
+      <span></span>
+    </div>
+    <div class="header__info">
+      <nav class="header__nav">
+        <ul class="list-reset">
+          <li><a href="/about.html" class="header__link">О компании</a></li>
+          <li><a href="/" class="header__link">Наши специалисты</a></li>
+          <li><a href="/" class="header__link">Услуги</a></li>
+          <li><a href="/" class="header__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__phones">
+        <a href="tel:88007000051" class="header__phone">8 (800) 700-00-51</a>
+        <a href="tel:88007000051" class="header__phone">8 (800) 700-00-51</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section class="advantages">
+  <h2 class="advantages__header strong">Наши преимущества</h2>
+  <div class="advantages__container">
+    <p class="advantages__descr">Мы — современный многопрофильный ветеринарный госпиталь с полным спектром услуг: от диагностики и лечения до
+    медицинского сопровождения домашних питомцев разного вида, веса и возраста.</p>
+    <div class="advantages__grid">
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/1.svg" width="112" height="112" alt="Иконка медали">
+        </div>
+        <h3 class="item-advantage__header">Чипирование</h3>
+        <p class="item-advantage__descr">Вся самая важная информация о Вашем питомце в одном чипе!</p>
+      </div>
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/2.svg" width="86" height="93" alt="Иконка секундомера">
+        </div>
+        <h3 class="item-advantage__header">Поддержка 24/7</h3>
+        <p class="item-advantage__descr">Круглосуточный стационар</p>
+      </div>
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/3.svg" width="97" height="90" alt="Иконка звезды">
+        </div>
+        <h3 class="item-advantage__header">Вакцинация</h3>
+        <p class="item-advantage__descr">Высокоэффективный способ профилактики инфекционных заболеваний для Вашего питомца!</p>
+      </div>
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/4.svg" width="82" height="89" alt="Иконка монет">
+        </div>
+        <h3 class="item-advantage__header">Цены в нашей клинике Вас приятно удивят!</h3>
+        <p class="item-advantage__descr">Мы заботимся о своих клиентах, поэтому готовы ответить на любые Ваши вопросы. К Вашим услугам консультации специалистов.</p>
+      </div>
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/5.svg" width="123" height="105" alt="Иконка следа">
+        </div>
+        <h3 class="item-advantage__header">Ваши питомцы будут довольны</h3>
+        <p class="item-advantage__descr">Проведём осмотр, расскажем, что беспокоит Вашего питомца и назначим план лечения!</p>
+      </div>
+      <div class="item-advantage">
+        <div class="item-advantage__icon">
+          <img src="img/advantages/6.svg" width="119" height="1220" alt="Иконка галочки в щите">
+        </div>
+        <h3 class="item-advantage__header">Специалисты-профессионалы своего дела</h3>
+        <p class="item-advantage__descr">У нас работают только высококвалифицированные врачи, любящие свое дело!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="consultation">
+  <div class="consultation__container">
+    <h2 class="consultation__header strong">Онлайн-консультация специалиста</h2>
+    <form action="#" class="consultation__form form">
+      <input autocomplete="off" type="text" name="name" data-error="Заполните это поле" data-value="Имя" class="input ">
+      <input autocomplete="off" type="text" name="phone" data-error="Заполните это поле" data-value="Номер" class="input _phone">
+      <input autocomplete="off" type="text" name="question" data-error="Заполните это поле" data-value="Вопрос" class="input ">
+      <input type="submit" class="consultation__btn btn" value="Записаться">
+    </form>
+  </div>
+</section>
+
+    <footer class="footer">
+  <div class="footer__container container">
+    <ul class="footer__socials list-reset">
+      <li class="footer__item">
+        <a href="/" class="footer__link">
+            <img src="img/socials/insta.svg" alt="Инстаграм">
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="/" class="footer__link">
+          <img src="img/socials/twitter.svg" alt="Твиттер">
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="/" class="footer__link">
+          <img src="img/socials/facebook.svg" alt="Фейсбук">
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="/" class="footer__link">
+          <img src="img/socials/youtube.svg" alt="Ютуб">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
