@@ -59,8 +59,8 @@ https://vladimirruppel.github.io/batmanov/index.html
 https://vladimirruppel.github.io/goosemark/index.html
 
 ## Сайт "VETLIFE"
-https://vladimirruppel.github.io/vetlife/index.html
-https://vladimirruppel.github.io/vetlife/about.html
-https://vladimirruppel.github.io/vetlife/employees.html
-https://vladimirruppel.github.io/vetlife/service-page.html
-https://vladimirruppel.github.io/vetlife/contacts.html
+https://vladimirruppel.github.io/vetlife/index.html  
+https://vladimirruppel.github.io/vetlife/about.html  
+https://vladimirruppel.github.io/vetlife/employees.html  
+https://vladimirruppel.github.io/vetlife/service-page.html  
+https://vladimirruppel.github.io/vetlife/contacts.html  
