@@ -1,0 +1,270 @@
+body {
+	--accent: #6B9EDA;
+}
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Comfortaa", "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+}
+.hidden {
+	display: none;
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 71px;
+}
+h2 {
+	font-size: 40px;
+	line-height: 44px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.landing-header {
+	background: var(--accent);
+	color: #fff;
+}
+.header__container {
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.landing-header__title {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.landing-header__title:hover {
+	text-decoration: underline;
+}
+.landing-header__title span {
+	font-weight: bold;
+}
+.landing-header__nav ul {
+	list-style-type: none;
+	display: flex;
+}
+.landing-header__nav li {
+	margin-left: 34px;
+}
+.landing-header__nav li:first-child {
+	margin-left: 0;
+}
+
+.landing-header__link {
+	color: #fff;
+	text-decoration: none;
+}
+.landing-header__link:hover {
+	text-decoration: underline;
+}
+
+.main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: url('../img/main-vector.svg') no-repeat top;
+	background-size: 100%;
+}
+
+.main__header {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 84px;
+}
+
+.main__image {
+	width: 100%;
+	max-width: 100%;
+	box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.25);
+}
+
+.why {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.why__header {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.why__list {
+	list-style: none;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.why__element {
+	max-width: 300px;
+}
+
+.element-why {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.element-why__icon {
+	margin-bottom: 38px;
+}
+
+.element-why__text {
+	text-align: center;
+}
+
+.how {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+.how__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.how__header {
+	text-align: center;
+	margin-bottom: 86px;
+}
+
+.how__element {
+	margin-bottom: 8px;
+}
+
+.improve {
+	padding-top: 120px;
+	padding-bottom: 240px;
+}
+
+.improve__header {
+	text-align: center;
+	margin-bottom: 121px;
+}
+
+.improve__choice {
+	margin-bottom: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.improve__choice:last-child {
+	margin-bottom: 0;
+}
+
+.improve__link {
+	font-size: 32px;
+	line-height: 36px;
+	color: black;
+}
+.improve__link:hover {
+	text-decoration: none;
+}
+
+.footer {
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer a {
+	color: black;
+	text-decoration: underline;
+}
+.footer a:hover {
+	text-decoration: none;
+}
+
+.figure-container {
+	position: relative;
+	overflow: hidden;
+}
+.figure-container__figure-1 {
+	position: absolute;
+	top: 400px;
+	right: -240px;
+}
+.figure-container__figure-2 {
+	position: absolute;
+	left: -360px;
+	bottom: -310px;
+}
